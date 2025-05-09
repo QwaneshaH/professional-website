@@ -1,0 +1,495 @@
+/*
+Author: Qwanesha Green(Hollis)
+File Name: styles.css
+Date: 04/9/2023
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul,figure, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+}
+/* Style rules for body and images */
+body {
+  color: #050319;
+  text-align: left;
+  
+}
+
+h1, h2, h3 {
+text-align: center;
+ color: #FFA500;
+ padding: 2%;
+
+}
+p {
+color:rgb(255, 144, 0);
+}
+/* Style rules for images */
+img, video {
+  max-width: 100%;
+  display: block;
+  border: 5px solid #FFA500 ;
+}
+/* Style rules for tr*/
+table {
+width: 80%;
+margin-top: 0;
+margin-bottom: 0;
+margin-right: auto;
+margin-left: auto;
+border: 5px solid #800080;
+font-size: 2em;
+border-collapse: collapse;
+padding: 2%;
+}
+
+/* Style rules for tr*/
+
+tr {
+border-collapse: collapse;
+padding: 2%;
+background-color:#FFA500;
+}
+tr:nth-child(odd) {
+background-color: #F5DEB3;
+}
+/* Style rules for th*/
+
+th {
+border-collapse: collapse;
+padding: 2%;
+border: 1px solid #FFA500;
+}
+
+/* Style rules for td*/
+td {
+border-collapse: collapse;
+padding: 2%;
+border: 4px solid #ffe532;
+text-align: center;
+}
+
+/* style rule for aside */
+aside {
+text-align: left;
+font-size: 1.5em;
+font-weight: bold;
+text-shadow: 2px 2px 5px #ffe532 ;
+grid-template-columns: auto auto;
+
+}
+
+
+/* style rule for figcaption */
+figcaption {
+ padding: 2%;
+ border-bottom: 2px solid #2a1f14;
+ font-size: 0.5em;
+}
+
+
+.column {
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 10px;
+}
+
+section {
+ grid-template-columns: auto auto;
+ /* grid-column: 1/ span 4; */
+
+}
+
+
+nav {
+ text-align: center;
+ border:4px solid black;
+    width:100%;
+    border-color: #FFA500;
+    text-decoration-color: #FFA500;
+}
+
+video {
+margin: 0 auto 4%;
+width:450px;
+height: 450px;
+}
+/*  Style rules for mobile viewport */
+body {
+background-color: #2a1f14;
+text-align: left;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border-color: #FFA500;
+  }
+
+
+/*  Style rules to show mobile class and hide tab-desk class and menu-links. */
+.mobile {
+display: block;
+}
+.tab-desk {
+display:none;
+}
+
+/* Style rules for header area */
+.mobile h1, .mobile h3 {
+padding: 2%;
+text-align: center;
+color: #2a1f14;
+}
+
+.mobile h1 {
+font-family: 'Mynerve', cursive;
+margin: 2% 0 0 3%;
+}
+
+.mobile h3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Style rules for navigation area */
+.grid{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto auto;
+grid-gap: 20px;
+
+}
+nav {
+  background-color: #050319;
+  border:2px solid #F5DEB3;
+    width:100%;
+    
+  
+}
+/* Style for hamburger menu */
+
+.topnav {
+overflow: hidden;
+background-color: #808080;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: #df4118;
+text-align: center;
+padding: 8px 10px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #800080;
+color: #F5DEB3;
+}
+
+.topnav a.active {
+background-color: #FFA500;
+color: white;
+}
+
+
+/* Style for mobile nav */
+.mobile nav{
+  display: inline;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #808080;
+}
+
+
+nav li:first-child {
+ text-align: center;
+  border-bottom: none;
+  display: inline-block;
+  border-top: solid 0.5px rgb(255, 144, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5em;
+  
+}
+
+.mobile-nav a {
+    color: #050319;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+ 
+/* Style rules for grid content */
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  /* Style rules for aside content */
+
+aside {
+  grid-column: 1/ span 2;
+  font-size: 2em;
+}
+/* Style rules for form elements */
+
+fieldset, input, textarea {
+margin-bottom: 2%;
+
+}
+
+#form {
+margin-top:2%;
+padding: 2%;
+color: #FFA500;
+background-color: #050319;
+}
+legend {
+font-weight: bold;
+font-size: 1.25em;
+
+}
+
+label{
+display: block;
+padding-top: 2%;
+}
+
+#submit {
+margin-top: zero;
+margin-bottom: zero;
+margin-right: auto;
+margin-left: auto;
+display: block;
+padding: 1%;
+background-color: #ffe532;
+color: #2a1f14;
+font-size: 1em;
+border-radius: 8px;
+}
+
+/* Style rules for footer content */
+
+footer {
+  text-align: center;
+  font-size: 0.98em;
+  background-color: #050319;
+  color: rgba(223,206,24,1);
+  border: 
+  padding: 2% 0 #050319;
+}
+
+footer a {
+  color: rgba(223,206,24,1);
+  text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+
+  padding: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+main p {
+  font-size: 2em;
+}
+
+main h3 {
+  padding-top: 3%;
+}
+
+main ul {
+  list-style-type: square;
+}
+
+
+/* Styles for links */
+
+.link {
+  color:rgba(223,206,24,1);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+background-color: rgba(223,206,24,1);
+
+}
+
+.link:visited {
+color: #800080;
+}
+/* Styles for action */
+
+.action {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+.round{
+border-radius: 3px;
+margin-bottom: zero;
+}
+
+/* Styles for contact content */
+
+#contact {
+  text-align: center;
+  font-size: 0.85em;
+}
+
+/* Media Query for Tablet Viewport */
+.tab {
+  @media screen and @media print (min-width: 620px;)
+  }
+  
+  /* Tablet Viewport: Show tab-desk class, hide mobile class */
+  
+  .tab-desk {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .mobile-nav {
+    display:none;
+  }
+  #menu-links{
+    display:block;
+  }
+     .topnav a:not(:first-child) {
+       display: none;
+       }
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+
+  /* Tablet Viewport: Animation */
+
+/* Animation */    
+@-webkit-keyframes text-animation{ 
+   0% {font-size: 1em;}
+50% {font-size: 2em;}
+100% {font-size:1.5em;}
+
+}   
+
+/* Tablet Viewport: Style rules for nav area */
+  body{
+    background-color: #2a1f14;
+    }
+  nav li{
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  nav li a {
+    padding: 0.5em;
+    display: inline;
+  color: #ffe532;
+  text-align: center;
+  text-decoration: none;
+  }
+
+nav ul {
+  text-align: center;
+  display: inline;
+}
+  
+/* Style rules for grid content */
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  /* Style rules for aside content */
+
+aside {
+  grid-column: 1/ span 2;
+  font-size: 2em;
+}
+  
+  /* Media Query for Desktop Viewport */
+  
+  @media screen and @media print (min-width: 1000px) {
+  
+  }
+  
+  /* Desktop Viewport: Style rules for nav area */
+  .mobile-nav {
+    display:none;
+  }
+ 
+  body {
+    background-color: #050319;
+  }
+  nav li {
+    font-size: 1.5em;
+    color: #F5DEB3;
+    text-align: center;
+    text-justify: center;
+  }
+  nav li a{
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+          text-align: center;
+         
+  }
+  nav li a:hover {
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          padding-left: 0.5em;
+          padding-right: 1.5em;
+    color: #2a1f14;
+    background-color: #800080;
+    transform: translateY(20px);
+  }
+  #menulinks{
+    display: none;
+  }
+  
+  /* Desktop Viewport: Style rules for main content */
+  
+.topnav {
+display:none;
+}
+  
+   /* Media Query for Large Desktop Viewports */
+  
+  @media screen and (min-width: 1921px) {}
+  
+  body {
+    background: linear-gradient(#050319, #df4118,#050319)
+  }
+  .mobile-nav {
+    display:none;
+  }
+  main {
+    color: rgba(223,206,24,1) 0%;
+  }
+ 
+  #hamburger {
+      display:none;
+  }
+  nav {
+      display: flex;
+  }
+  
+  @media only screen and (max-width:768px) {
+      #hamburger {
+          display: block;
+      }
+      #myTopnav {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+      }
+      
+  }
